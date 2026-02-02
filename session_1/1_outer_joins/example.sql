@@ -9,5 +9,5 @@
 
 
 -- write your sql code here
-
-
+--SELECT Students.name, Department.name AS department FROM Students JOIN Department ON Students.department_id = Department.id;
+--SELECT name, COUNT(student_id) AS TotalStudents FROM Courses LEFT JOIN StudentCourses ON Courses.id=StudentCourses.course_id GROUP BY name HAVING TotalStudents<20;
